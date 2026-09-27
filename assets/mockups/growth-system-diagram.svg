@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" fill="none" width="100%" height="100%">
+  <rect width="900" height="360" rx="20" fill="#0C101A" stroke="#1E283C" stroke-width="2"/>
+  
+  <!-- Subtle Grid lines -->
+  <line x1="0" y1="180" x2="900" y2="180" stroke="rgba(255,255,255,0.03)"/>
+  
+  <!-- Flow Connecting Pathway -->
+  <path d="M 90 180 L 810 180" stroke="url(#systemPathGrad)" stroke-width="3" stroke-dasharray="6 6"/>
+  
+  <defs>
+    <linearGradient id="systemPathGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF661F"/>
+      <stop offset="50%" stop-color="#FF9447"/>
+      <stop offset="100%" stop-color="#FF661F"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(255,102,31,0.2)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Stage 01: Attention -->
+  <g transform="translate(90, 180)">
+    <circle cx="0" cy="0" r="50" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="32" fill="#131B2A" stroke="#FF661F" stroke-width="2"/>
+    <text x="0" y="-4" text-anchor="middle" fill="#FF8533" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">01</text>
+    <text x="0" y="12" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">ATTENTION</text>
+    <text x="0" y="55" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="11">Hook &amp; Discovery</text>
+    <text x="0" y="-45" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="11">Reels &amp; Local Reach</text>
+  </g>
+
+  <!-- Arrow 1-2 -->
+  <polygon points="215,176 225,180 215,184" fill="#FF8533"/>
+
+  <!-- Stage 02: Trust -->
+  <g transform="translate(270, 180)">
+    <circle cx="0" cy="0" r="50" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="32" fill="#131B2A" stroke="#FF661F" stroke-width="2"/>
+    <text x="0" y="-4" text-anchor="middle" fill="#FF8533" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">02</text>
+    <text x="0" y="12" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">TRUST</text>
+    <text x="0" y="55" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="11">Proof &amp; Authority</text>
+    <text x="0" y="-45" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="11">BTS &amp; Expertise</text>
+  </g>
+
+  <!-- Arrow 2-3 -->
+  <polygon points="395,176 405,180 395,184" fill="#FF8533"/>
+
+  <!-- Stage 03: Demand -->
+  <g transform="translate(450, 180)">
+    <circle cx="0" cy="0" r="50" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="32" fill="#131B2A" stroke="#FF661F" stroke-width="2"/>
+    <text x="0" y="-4" text-anchor="middle" fill="#FF8533" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">03</text>
+    <text x="0" y="12" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">DEMAND</text>
+    <text x="0" y="55" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="11">Problem Framing</text>
+    <text x="0" y="-45" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="11">Cost of Inaction</text>
+  </g>
+
+  <!-- Arrow 3-4 -->
+  <polygon points="575,176 585,180 575,184" fill="#FF8533"/>
+
+  <!-- Stage 04: Action -->
+  <g transform="translate(630, 180)">
+    <circle cx="0" cy="0" r="50" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="32" fill="#131B2A" stroke="#FF661F" stroke-width="2"/>
+    <text x="0" y="-4" text-anchor="middle" fill="#FF8533" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">04</text>
+    <text x="0" y="12" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">ACTION</text>
+    <text x="0" y="55" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="11">WhatsApp / Call</text>
+    <text x="0" y="-45" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="11">Frictionless Path</text>
+  </g>
+
+  <!-- Arrow 4-5 -->
+  <polygon points="755,176 765,180 755,184" fill="#FF8533"/>
+
+  <!-- Stage 05: Business Opportunity -->
+  <g transform="translate(810, 180)">
+    <circle cx="0" cy="0" r="55" fill="rgba(255,94,30,0.25)"/>
+    <circle cx="0" cy="0" r="34" fill="#FF661F" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="0" y="-4" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">05</text>
+    <text x="0" y="12" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">BUSINESS</text>
+    <text x="0" y="55" text-anchor="middle" fill="#FF8533" font-family="sans-serif" font-size="11" font-weight="600">ENQUIRY / VISIT</text>
+    <text x="0" y="-45" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="11">Real Pipeline</text>
+  </g>
+</svg>

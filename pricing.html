@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packages & Scope | AIS Social Growth System</title>
+  <meta name="description" content="Transparent package comparison for the AIS Social Growth System. Social Foundation, Growth System, and Full Business Growth tiers. Zero artificial discounts.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ais: {
+              base: '#07090E',
+              surface: '#0D121C',
+              card: '#121824',
+              elevated: '#182030',
+              orange: '#FF5E1E',
+              saffron: '#FF7A1A',
+              border: '#1F293D'
+            }
+          },
+          fontFamily: {
+            heading: ['Space Grotesk', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="bg-[#07090E] text-slate-100 antialiased selection:bg-[#FF5E1E] selection:text-white">
+
+  <header id="ais-header-slot"></header>
+
+  <main>
+
+    <!-- Hero Header -->
+    <section class="relative pt-16 pb-20 md:pt-24 md:pb-28 border-b border-white/5 overflow-hidden">
+      <div class="glow-orange top-1/3 left-1/2 -translate-x-1/2 w-[600px] h-[300px]"></div>
+      <div class="absolute inset-0 bg-grid-pattern opacity-30 pointer-events-none"></div>
+
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-4">
+        <div class="badge-orange">Investment Architecture</div>
+        <h1 class="font-heading text-4xl sm:text-6xl font-bold tracking-tight text-white leading-tight">
+          Clear Packages.<br class="hidden sm:inline">No Fake Pricing Pressure.
+        </h1>
+        <p class="text-base sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          We don't manufacture artificial countdown clocks or 80% slash discounts. Our pricing reflects disciplined strategic engineering, high-craft creative production, and transparent monthly accountability.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3 Core Packages Cards -->
+    <section class="py-20 relative border-b border-white/5 bg-[#090D15]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+          
+          <!-- Package 01: Social Foundation -->
+          <div class="ais-card p-8 border-white/10 flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="badge-dark text-xs">Package 01</span>
+                <span class="text-xs text-slate-400">Core Presence</span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-white">Social Foundation</h3>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                For established local businesses looking to professionalize their channels and end random posting.
+              </p>
+              
+              <div class="pt-2 pb-4 border-b border-white/10">
+                <div class="text-sm font-semibold text-slate-300">Custom Monthly Retainer</div>
+                <div class="text-[11px] text-slate-400 mt-0.5">Configured around your posting cadence</div>
+              </div>
+
+              <ul class="space-y-3 text-xs text-slate-300">
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Brand &amp; Positioning Audit</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Profile &amp; Bio Optimization (IG &amp; FB)</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>12 Assets/Month (8 Graphics + 4 Reels)</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Persuasive Captions &amp; Action CTAs</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Direct WhatsApp Link Setup</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Monthly Performance Report</span>
+                </li>
+              </ul>
+            </div>
+
+            <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-secondary w-full justify-center text-xs py-3 mt-4">
+              Discuss Social Foundation &rarr;
+            </button>
+          </div>
+
+          <!-- Package 02: Growth System (Most Popular) -->
+          <div class="ais-card p-8 border-[#FF661F]/40 bg-gradient-to-b from-[#131B2A] to-[#0E1422] flex flex-col justify-between space-y-6 relative shadow-2xl">
+            <div class="absolute -top-3 left-1/2 -translate-x-1/2">
+              <span class="badge-orange text-[10px] tracking-wider font-bold">MOST POPULAR</span>
+            </div>
+
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="badge-orange text-xs">Package 02</span>
+                <span class="text-xs text-[#FF8533]">Active Growth</span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-white">Growth System</h3>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                For ambitious businesses actively seeking more qualified local enquiries and market authority.
+              </p>
+              
+              <div class="pt-2 pb-4 border-b border-white/10">
+                <div class="text-sm font-semibold text-white">Tailored Growth Retainer</div>
+                <div class="text-[11px] text-slate-400 mt-0.5">Heavy vertical video + weekly experimentation</div>
+              </div>
+
+              <ul class="space-y-3 text-xs text-slate-200">
+                <li class="flex items-center gap-2 font-medium">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>Everything in Social Foundation</span>
+                </li>
+                <li class="flex items-center gap-2 font-medium">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>18-20 Assets/Month (8-10 Reels + 10 Carousels)</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Hook-Driven Video Scripting &amp; Pacing</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Dedicated Mobile Landing Page Funnel</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>WhatsApp Lead Qualification Scripts</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Continuous Content A/B Hypothesis Testing</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Monthly Strategy Calibration Video Call</span>
+                </li>
+              </ul>
+            </div>
+
+            <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-primary w-full justify-center text-xs py-3 mt-4">
+              Discuss Growth System &rarr;
+            </button>
+          </div>
+
+          <!-- Package 03: Business Growth -->
+          <div class="ais-card p-8 border-white/10 flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="badge-dark text-xs">Package 03</span>
+                <span class="text-xs text-slate-400">Complete Digital</span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-white">Business Growth</h3>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                The complete digital infrastructure: Growth System paired with an AIS custom business website.
+              </p>
+              
+              <div class="pt-2 pb-4 border-b border-white/10">
+                <div class="text-sm font-semibold text-slate-300">Retainer + Web Architecture</div>
+                <div class="text-[11px] text-slate-400 mt-0.5">High-speed web development + complete management</div>
+              </div>
+
+              <ul class="space-y-3 text-xs text-slate-300">
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Everything in Growth System</span>
+                </li>
+                <li class="flex items-center gap-2 font-medium text-white">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Custom Business Website by AIS</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Multi-Page Responsive Web Architecture</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Google Business Profile Local SEO Integration</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Bi-Weekly Strategy &amp; Pipeline Calls</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Dedicated Account Strategist &amp; Direct Line</span>
+                </li>
+              </ul>
+            </div>
+
+            <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-secondary w-full justify-center text-xs py-3 mt-4">
+              Discuss Business Growth &rarr;
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Comprehensive Feature Comparison Table -->
+    <section class="py-20 md:py-28 relative border-b border-white/5">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        
+        <div class="text-center max-w-3xl mx-auto space-y-3">
+          <div class="badge-dark text-xs">Side-by-Side Matrix</div>
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white">Detailed Feature Matrix</h2>
+          <p class="text-sm text-slate-400">See exactly what is included across each service level:</p>
+        </div>
+
+        <div class="ais-card border-white/10 overflow-x-auto">
+          <table class="w-full text-left text-xs sm:text-sm">
+            <thead>
+              <tr class="border-b border-white/10 bg-[#121824] text-white font-heading">
+                <th class="p-4 sm:p-5">Feature &amp; Deliverable</th>
+                <th class="p-4 sm:p-5 text-center">Social Foundation</th>
+                <th class="p-4 sm:p-5 text-center bg-[#FF661F]/10 text-[#FF8533]">Growth System</th>
+                <th class="p-4 sm:p-5 text-center">Business Growth</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-white/5 text-slate-300">
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Brand &amp; Positioning Audit</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400">✓</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400 bg-[#FF661F]/5">✓</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400">✓</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Monthly High-Craft Assets</td>
+                <td class="p-4 sm:p-5 text-center">12 Assets</td>
+                <td class="p-4 sm:p-5 text-center font-bold text-white bg-[#FF661F]/5">18 - 20 Assets</td>
+                <td class="p-4 sm:p-5 text-center">18 - 20 Assets</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Scripted &amp; Paced Vertical Reels</td>
+                <td class="p-4 sm:p-5 text-center">4 Reels</td>
+                <td class="p-4 sm:p-5 text-center font-bold text-[#FF8533] bg-[#FF661F]/5">8 - 10 Reels</td>
+                <td class="p-4 sm:p-5 text-center">8 - 10 Reels</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Editorial Carousels &amp; Graphics</td>
+                <td class="p-4 sm:p-5 text-center">8 Graphics</td>
+                <td class="p-4 sm:p-5 text-center bg-[#FF661F]/5">10 Graphics</td>
+                <td class="p-4 sm:p-5 text-center">10 Graphics</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Persuasive Captions &amp; CTAs</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400">✓</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400 bg-[#FF661F]/5">✓</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400">✓</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Direct WhatsApp Action Triggers</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400">✓</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400 bg-[#FF661F]/5">✓</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400">✓</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Dedicated Mobile Landing Page Funnel</td>
+                <td class="p-4 sm:p-5 text-center text-slate-400">—</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400 bg-[#FF661F]/5">✓ Included</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400">✓ Included</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Front-Desk Lead Qualification Scripts</td>
+                <td class="p-4 sm:p-5 text-center text-slate-400">—</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400 bg-[#FF661F]/5">✓ Included</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400">✓ Included</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Custom Business Website by AIS</td>
+                <td class="p-4 sm:p-5 text-center text-slate-400">—</td>
+                <td class="p-4 sm:p-5 text-center text-slate-400 bg-[#FF661F]/5">—</td>
+                <td class="p-4 sm:p-5 text-center text-emerald-400 font-bold">✓ Full Architecture</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Strategy &amp; Experimentation Calls</td>
+                <td class="p-4 sm:p-5 text-center text-slate-400">Written Report</td>
+                <td class="p-4 sm:p-5 text-center bg-[#FF661F]/5">Monthly Video Call</td>
+                <td class="p-4 sm:p-5 text-center font-bold text-white">Bi-Weekly Strategy</td>
+              </tr>
+              <tr>
+                <td class="p-4 sm:p-5 font-medium text-white">Account Management Line</td>
+                <td class="p-4 sm:p-5 text-center">Email Desk</td>
+                <td class="p-4 sm:p-5 text-center bg-[#FF661F]/5">Priority WhatsApp</td>
+                <td class="p-4 sm:p-5 text-center font-bold text-[#FF8533]">Dedicated Strategist</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Bottom Action CTA -->
+    <section class="py-20 text-center bg-gradient-to-b from-[#090D15] to-[#07090E]">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white">Need a Tailored Proposal?</h2>
+        <p class="text-sm sm:text-base text-slate-400">
+          Book a 30-minute diagnostic session to discuss which package best fits your business goals.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-primary text-sm py-3 px-6">
+            Book Strategy Call &rarr;
+          </button>
+          <a href="audit.html" class="btn-secondary text-sm py-3 px-6">
+            Get a Free Social Audit
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="ais-footer-slot"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/forms.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

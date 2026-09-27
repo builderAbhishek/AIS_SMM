@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700" fill="none" width="100%" height="100%">
+  <!-- Phone Frame Background -->
+  <rect width="400" height="700" rx="32" fill="#0C101A" stroke="#1E293D" stroke-width="2"/>
+  
+  <!-- Video Scene Mock -->
+  <defs>
+    <linearGradient id="reelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141C2B"/>
+      <stop offset="50%" stop-color="#1A2438"/>
+      <stop offset="100%" stop-color="#0E1422"/>
+    </linearGradient>
+    <linearGradient id="overlayGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.6)"/>
+      <stop offset="30%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="60%" stop-color="rgba(0,0,0,0.4)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.95)"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="384" height="684" rx="26" fill="url(#reelGrad)"/>
+  <rect x="8" y="8" width="384" height="684" rx="26" fill="url(#overlayGrad)"/>
+  
+  <!-- Subtle Grid inside visual -->
+  <line x1="30" y1="120" x2="370" y2="120" stroke="rgba(255,255,255,0.06)" stroke-dasharray="4 4"/>
+  <line x1="30" y1="350" x2="370" y2="350" stroke="rgba(255,255,255,0.06)" stroke-dasharray="4 4"/>
+  
+  <!-- Watermark / Label Requirement -->
+  <rect x="24" y="24" width="136" height="24" rx="6" fill="rgba(255,94,30,0.2)" stroke="#FF661F" stroke-width="1"/>
+  <text x="32" y="40" fill="#FF8533" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" letter-spacing="1">SAMPLE CREATIVE</text>
+  
+  <!-- Video Format Badge -->
+  <rect x="290" y="24" width="86" height="24" rx="6" fill="rgba(0,0,0,0.6)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="302" y="40" fill="#94A3B8" font-family="sans-serif" font-size="11" font-weight="600">REEL 0:42</text>
+
+  <!-- Central Play / Audio Pulse Illustration -->
+  <circle cx="200" cy="270" r="44" fill="rgba(255,94,30,0.15)" stroke="#FF661F" stroke-width="1.5"/>
+  <polygon points="192,252 216,270 192,288" fill="#FFFFFF"/>
+  <circle cx="200" cy="270" r="58" stroke="rgba(255,94,30,0.3)" stroke-width="1" stroke-dasharray="6 6"/>
+
+  <!-- Hook Overlay Text (First 3 seconds hook) -->
+  <rect x="28" y="370" width="344" height="96" rx="12" fill="rgba(7,9,14,0.75)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="44" y="398" fill="#FF8533" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" letter-spacing="1">ATTENTION HOOK (0:00 - 0:03)</text>
+  <text x="44" y="426" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="17" font-weight="700">"Why 80% of local clinics lose</text>
+  <text x="44" y="450" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="17" font-weight="700">patients before the 1st visit"</text>
+
+  <!-- Right Side Social Action Buttons Mock -->
+  <circle cx="360" cy="420" r="16" fill="rgba(255,255,255,0.1)"/>
+  <path d="M360 412C355 412 352 416 352 419C352 425 360 429 360 429C360 429 368 425 368 419C368 416 365 412 360 412Z" fill="#F8FAFC"/>
+  
+  <circle cx="360" cy="465" r="16" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="360" cy="510" r="16" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="360" cy="555" r="16" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Profile & Caption Area -->
+  <circle cx="48" cy="520" r="18" fill="#FF661F"/>
+  <text x="44" y="525" fill="#FFF" font-family="sans-serif" font-size="12" font-weight="700">AIS</text>
+  <text x="74" y="518" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">Metro City Health</text>
+  <text x="74" y="534" fill="#94A3B8" font-family="sans-serif" font-size="11">Problem Framing • Patient Education</text>
+
+  <!-- Subtitle Bar Mock -->
+  <rect x="28" y="560" width="310" height="52" rx="8" fill="rgba(0,0,0,0.6)"/>
+  <text x="40" y="582" fill="#E2E8F0" font-family="sans-serif" font-size="12">Clear subtitle timing keeps viewers watching</text>
+  <text x="40" y="600" fill="#FF8533" font-family="sans-serif" font-size="12" font-weight="600">even with audio muted during commutes.</text>
+
+  <!-- Call to action pill -->
+  <rect x="28" y="628" width="344" height="42" rx="10" fill="#FF661F"/>
+  <text x="135" y="654" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Send WhatsApp Message ↗</text>
+</svg>

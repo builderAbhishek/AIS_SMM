@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIS Social Growth System | Alag Innovative Solutions</title>
+  <meta name="description" content="A practical social media and lead generation system engineered for local businesses. Turn attention into trust, trust into enquiries, and enquiries into business opportunities.">
+  <meta name="keywords" content="Social Media Management, Social Media Marketing, Social Media Strategy, Local Business Marketing, Instagram Marketing, Content Marketing, Lead Generation">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="AIS Social Growth System | Alag Innovative Solutions">
+  <meta property="og:description" content="Your social media should do more than look active. We build the system that turns attention into trust, trust into enquiries, and enquiries into business opportunities.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/icons/logo.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ais: {
+              base: '#07090E',
+              surface: '#0D121C',
+              card: '#121824',
+              elevated: '#182030',
+              orange: '#FF5E1E',
+              saffron: '#FF7A1A',
+              border: '#1F293D'
+            }
+          },
+          fontFamily: {
+            heading: ['Space Grotesk', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="bg-[#07090E] text-slate-100 antialiased selection:bg-[#FF5E1E] selection:text-white">
+
+  <!-- Header Slot -->
+  <header id="ais-header-slot"></header>
+
+  <main id="main-content">
+
+    <!-- ==================================================
+         SECTION 6: HERO SECTION
+         ================================================== -->
+    <section class="relative pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden border-b border-white/5">
+      <!-- Glow Gradients -->
+      <div class="glow-orange top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[350px]"></div>
+      <div class="absolute inset-0 bg-grid-pattern opacity-40 pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-4xl mx-auto space-y-6">
+          
+          <!-- Eyebrow Badge -->
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-semibold tracking-wider uppercase text-[#FF8533]">
+            <span class="w-2 h-2 rounded-full bg-[#FF661F] animate-pulse"></span>
+            AIS SOCIAL GROWTH SYSTEM
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="font-heading text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-[1.08]">
+            Your Social Media Should Do More Than <span class="bg-gradient-to-r from-white via-slate-200 to-[#FF8533] bg-clip-text text-transparent">Look Active.</span>
+          </h1>
+
+          <!-- Supporting Text -->
+          <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto font-normal leading-relaxed">
+            We build a practical social media system that helps local businesses earn attention, build trust, and create more opportunities to talk to potential customers.
+          </p>
+
+          <!-- Primary CTAs -->
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+            <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-primary text-base py-3.5 px-8 w-full sm:w-auto shadow-lg shadow-[#FF661F]/20">
+              <span>Book a Strategy Call</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+            <a href="#system" class="btn-secondary text-base py-3.5 px-8 w-full sm:w-auto">
+              <span>See How It Works</span>
+              <i data-lucide="arrow-down" class="w-4 h-4 text-slate-400"></i>
+            </a>
+          </div>
+
+          <!-- Trust & Scope Statement -->
+          <div class="pt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs font-medium text-slate-400">
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i> Strategy
+            </span>
+            <span class="text-slate-600">•</span>
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i> Content
+            </span>
+            <span class="text-slate-600">•</span>
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i> Distribution
+            </span>
+            <span class="text-slate-600">•</span>
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i> Conversion
+            </span>
+          </div>
+
+        </div>
+
+        <!-- Abstract "Growth System" Visual Architecture (No fake metrics) -->
+        <div class="mt-16 max-w-5xl mx-auto">
+          <div class="ais-card p-6 sm:p-10 border-white/15 bg-[#0D121D]/90 shadow-2xl relative">
+            <div class="flex items-center justify-between border-b border-white/10 pb-4 mb-8">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#FF661F]"></span>
+                <span class="text-xs font-heading font-semibold uppercase tracking-wider text-white">System Flow Architecture</span>
+              </div>
+              <span class="text-[11px] font-mono text-slate-400 uppercase">First Principles Conversion Path</span>
+            </div>
+
+            <!-- Flow Nodes -->
+            <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 relative">
+              
+              <!-- Node 1: Attention -->
+              <div class="p-4 rounded-xl bg-[#141B2A] border border-white/10 flex flex-col items-center text-center space-y-2">
+                <div class="w-9 h-9 rounded-lg bg-[#FF661F]/15 border border-[#FF661F]/30 flex items-center justify-center text-[#FF8533]">
+                  <i data-lucide="eye" class="w-4 h-4"></i>
+                </div>
+                <div class="text-xs font-heading font-bold text-white uppercase tracking-wider">01 Attention</div>
+                <div class="text-[11px] text-slate-400">Reels &amp; Discovery</div>
+              </div>
+
+              <!-- Node 2: Trust -->
+              <div class="p-4 rounded-xl bg-[#141B2A] border border-white/10 flex flex-col items-center text-center space-y-2">
+                <div class="w-9 h-9 rounded-lg bg-[#FF661F]/15 border border-[#FF661F]/30 flex items-center justify-center text-[#FF8533]">
+                  <i data-lucide="shield-check" class="w-4 h-4"></i>
+                </div>
+                <div class="text-xs font-heading font-bold text-white uppercase tracking-wider">02 Trust</div>
+                <div class="text-[11px] text-slate-400">Proof &amp; Real Team</div>
+              </div>
+
+              <!-- Node 3: Demand -->
+              <div class="p-4 rounded-xl bg-[#141B2A] border border-white/10 flex flex-col items-center text-center space-y-2">
+                <div class="w-9 h-9 rounded-lg bg-[#FF661F]/15 border border-[#FF661F]/30 flex items-center justify-center text-[#FF8533]">
+                  <i data-lucide="flame" class="w-4 h-4"></i>
+                </div>
+                <div class="text-xs font-heading font-bold text-white uppercase tracking-wider">03 Demand</div>
+                <div class="text-[11px] text-slate-400">Problem Framing</div>
+              </div>
+
+              <!-- Node 4: Action -->
+              <div class="p-4 rounded-xl bg-[#141B2A] border border-white/10 flex flex-col items-center text-center space-y-2">
+                <div class="w-9 h-9 rounded-lg bg-[#FF661F]/15 border border-[#FF661F]/30 flex items-center justify-center text-[#FF8533]">
+                  <i data-lucide="mouse-pointer-click" class="w-4 h-4"></i>
+                </div>
+                <div class="text-xs font-heading font-bold text-white uppercase tracking-wider">04 Action</div>
+                <div class="text-[11px] text-slate-400">WhatsApp / Call</div>
+              </div>
+
+              <!-- Node 5: Opportunity -->
+              <div class="col-span-2 sm:col-span-1 p-4 rounded-xl bg-gradient-to-br from-[#FF661F]/20 to-[#141B2A] border border-[#FF661F]/40 flex flex-col items-center text-center space-y-2">
+                <div class="w-9 h-9 rounded-lg bg-[#FF661F] flex items-center justify-center text-white">
+                  <i data-lucide="briefcase" class="w-4 h-4"></i>
+                </div>
+                <div class="text-xs font-heading font-bold text-white uppercase tracking-wider">05 Opportunity</div>
+                <div class="text-[11px] text-[#FF8533] font-medium">Enquiry / Visit</div>
+              </div>
+
+            </div>
+
+            <!-- System Statement Bar -->
+            <div class="mt-8 pt-4 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-2">
+              <span>Engineered specifically for local clinics, schools, academies, restaurants, and professional firms.</span>
+              <span class="text-slate-300 font-mono">Zero vanity metrics. Zero bot fluff.</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 7: CORE PROBLEM
+         ================================================== -->
+    <section class="py-20 md:py-28 relative bg-[#090D15] border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <div class="badge-dark text-xs">The Reality of Most Feeds</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            "Most Businesses Don't Have a Content Problem."
+          </h2>
+          <p class="text-base sm:text-lg text-slate-400">
+            You don't need another generic motivational quote or festival graphic. You need to address the actual symptoms hurting your growth:
+          </p>
+        </div>
+
+        <!-- 6 Problem Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <div class="ais-card p-6 border-white/10 space-y-3">
+            <div class="w-10 h-10 rounded-lg bg-rose-500/10 border border-rose-500/20 flex items-center justify-center text-rose-400">
+              <i data-lucide="help-circle" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">"I don't know what to post."</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              Every week begins with a stressful scramble. Without designated content jobs, ideas feel arbitrary and ungrounded.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-3">
+            <div class="w-10 h-10 rounded-lg bg-rose-500/10 border border-rose-500/20 flex items-center justify-center text-rose-400">
+              <i data-lucide="clock" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">"My page looks inactive."</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              Inconsistent posting schedules create the dangerous perception that your business is struggling, closed, or neglectful.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-3">
+            <div class="w-10 h-10 rounded-lg bg-rose-500/10 border border-rose-500/20 flex items-center justify-center text-rose-400">
+              <i data-lucide="trending-down" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">"We get views but no enquiries."</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              Empty viral views don't pay bills. Viewers consume entertainment and leave because there is no frictionless conversion path.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-3">
+            <div class="w-10 h-10 rounded-lg bg-rose-500/10 border border-rose-500/20 flex items-center justify-center text-rose-400">
+              <i data-lucide="users" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">"Competitors look more professional."</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              Rivals with inferior products win local customers simply because their online presence looks polished, established, and trustworthy.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-3">
+            <div class="w-10 h-10 rounded-lg bg-rose-500/10 border border-rose-500/20 flex items-center justify-center text-rose-400">
+              <i data-lucide="shuffle" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">"We post randomly."</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              One day a discount, next day a festival greeting, then 3 weeks of silence. Random actions produce random, unpredictable outcomes.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-3">
+            <div class="w-10 h-10 rounded-lg bg-rose-500/10 border border-rose-500/20 flex items-center justify-center text-rose-400">
+              <i data-lucide="shield-alert" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">"People don't see why to choose us."</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              Your real expertise and doctor/teacher/chef credentials stay locked inside your building. The outside world cannot verify your value.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- The Transition Callout -->
+        <div class="mt-14 max-w-3xl mx-auto p-8 rounded-2xl bg-[#121826] border border-[#FF661F]/30 text-center relative overflow-hidden">
+          <div class="text-[#FF8533] font-mono text-xs uppercase tracking-wider mb-2 font-bold">The Strategic Reality</div>
+          <div class="font-heading text-2xl sm:text-3xl font-bold text-white leading-snug">
+            "The problem isn't posting.<br>
+            <span class="text-[#FF8533]">The problem is the absence of a system."</span>
+          </div>
+          <p class="text-sm text-slate-300 mt-3 max-w-xl mx-auto">
+            Posting without positioning, proof, and a conversion pathway is like printing brochures and throwing them off a balcony. We replace noise with architecture.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 8: FIRST PRINCIPLES SECTION
+         ================================================== -->
+    <section id="first-principles" class="py-20 md:py-32 relative border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <div class="badge-orange">Signature Architecture</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            Start With First Principles.
+          </h2>
+          <p class="text-base sm:text-lg text-slate-400">
+            A social media business system can be stripped down to five fundamental truths:
+          </p>
+        </div>
+
+        <!-- The 5 Cascade Stages -->
+        <div class="space-y-6 max-w-4xl mx-auto">
+          
+          <!-- Principle 1: Attention -->
+          <div class="ais-card p-6 sm:p-8 border-white/10 hover:border-[#FF661F]/40 transition">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-3">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-[#FF661F]/20 text-[#FF8533] font-mono text-xs font-bold flex items-center justify-center border border-[#FF661F]/30">01</span>
+                <h3 class="font-heading text-xl sm:text-2xl font-bold text-white">ATTENTION</h3>
+              </div>
+              <span class="badge-dark text-xs">Role: Discovery &amp; Reach</span>
+            </div>
+            <p class="text-base font-semibold text-slate-200 mb-2">Get the right people to notice the business.</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+              Without targeted visibility, even world-class services stay invisible. We engineer content hooks and hyper-local signals so local prospects discover your business organically through consistent brand presence.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Problem-aware hooks</span>
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">High-retention Reels</span>
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Local visual cues</span>
+            </div>
+          </div>
+
+          <div class="text-center text-slate-600 font-bold flow-arrow-pulse">↓</div>
+
+          <!-- Principle 2: Trust -->
+          <div class="ais-card p-6 sm:p-8 border-white/10 hover:border-[#FF661F]/40 transition">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-3">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-[#FF661F]/20 text-[#FF8533] font-mono text-xs font-bold flex items-center justify-center border border-[#FF661F]/30">02</span>
+                <h3 class="font-heading text-xl sm:text-2xl font-bold text-white">TRUST</h3>
+              </div>
+              <span class="badge-dark text-xs">Role: Credibility &amp; Verification</span>
+            </div>
+            <p class="text-base font-semibold text-slate-200 mb-2">Show expertise, proof, people and real work.</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+              Modern customers do not buy from anonymous feeds or stock photos. We showcase the real professionals behind your business, transparent behind-the-scenes processes, genuine client results, and educational depth.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Behind-the-scenes walkthroughs</span>
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Doctor/Founder viewpoints</span>
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Verified real work</span>
+            </div>
+          </div>
+
+          <div class="text-center text-slate-600 font-bold flow-arrow-pulse">↓</div>
+
+          <!-- Principle 3: Demand -->
+          <div class="ais-card p-6 sm:p-8 border-white/10 hover:border-[#FF661F]/40 transition">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-3">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-[#FF661F]/20 text-[#FF8533] font-mono text-xs font-bold flex items-center justify-center border border-[#FF661F]/30">03</span>
+                <h3 class="font-heading text-xl sm:text-2xl font-bold text-white">DEMAND</h3>
+              </div>
+              <span class="badge-dark text-xs">Role: Desire &amp; Problem Framing</span>
+            </div>
+            <p class="text-base font-semibold text-slate-200 mb-2">Make the audience understand why the service matters.</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+              Content must clearly connect the viewer's immediate frustrations with your specific solution, demonstrating why postponing action costs them time, comfort, or money.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Before-and-after logic</span>
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Cost-of-inaction framing</span>
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Service differentiators</span>
+            </div>
+          </div>
+
+          <div class="text-center text-slate-600 font-bold flow-arrow-pulse">↓</div>
+
+          <!-- Principle 4: Action -->
+          <div class="ais-card p-6 sm:p-8 border-white/10 hover:border-[#FF661F]/40 transition">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-3">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-[#FF661F]/20 text-[#FF8533] font-mono text-xs font-bold flex items-center justify-center border border-[#FF661F]/30">04</span>
+                <h3 class="font-heading text-xl sm:text-2xl font-bold text-white">ACTION</h3>
+              </div>
+              <span class="badge-dark text-xs">Role: Frictionless Response</span>
+            </div>
+            <p class="text-base font-semibold text-slate-200 mb-2">Give them an easy, low-friction next step.</p>
+            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+              Attention that isn't guided to an action is wasted. We place direct, low-resistance call-to-actions across bios, highlights, captions, and links so interested prospects know exactly what to do next.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">One-tap WhatsApp routing</span>
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Direct call triggers</span>
+              <span class="px-2.5 py-1 rounded bg-[#161F30] text-slate-300 border border-white/5">Pre-filled DM inquiries</span>
+            </div>
+          </div>
+
+          <div class="text-center text-[#FF8533] font-bold flow-arrow-pulse">↓</div>
+
+          <!-- Principle 5: Business Opportunity -->
+          <div class="ais-card p-6 sm:p-8 border-[#FF661F]/40 bg-gradient-to-r from-[#141B2A] to-[#1E283E] transition shadow-lg">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-3">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-[#FF661F] text-white font-mono text-xs font-bold flex items-center justify-center">05</span>
+                <h3 class="font-heading text-xl sm:text-2xl font-bold text-white">BUSINESS OPPORTUNITY</h3>
+              </div>
+              <span class="badge-orange text-xs">The Final Commercial Objective</span>
+            </div>
+            <p class="text-base font-semibold text-slate-100 mb-2">Turn attention into enquiries, visits, calls or conversations.</p>
+            <p class="text-sm text-slate-300 leading-relaxed mb-4">
+              The benchmark of social media is not vanity follower counts—it is generating legitimate business enquiries, scheduled consultations, walk-in visits, and sales conversations.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded bg-[#FF661F]/20 text-[#FF8533] border border-[#FF661F]/30 font-semibold">Incoming WhatsApp Chats</span>
+              <span class="px-2.5 py-1 rounded bg-[#FF661F]/20 text-[#FF8533] border border-[#FF661F]/30 font-semibold">Scheduled Appointments</span>
+              <span class="px-2.5 py-1 rounded bg-[#FF661F]/20 text-[#FF8533] border border-[#FF661F]/30 font-semibold">Direct Footfalls</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 9 & 10: AIS SYSTEM ARCHITECTURE
+         ================================================== -->
+    <section id="system" class="py-20 md:py-32 relative bg-[#090D15] border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <div class="badge-dark text-xs">System Architecture</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            "One System. Multiple Moving Parts."
+          </h2>
+          <p class="text-base sm:text-lg text-slate-400">
+            A cohesive productized architecture. Click any stage below to inspect deliverables, methodology, and operational impact:
+          </p>
+        </div>
+
+        <!-- 8 Clickable System Stages Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          
+          <!-- Step 01 -->
+          <div data-step="01" class="system-stage-card ais-card p-6 border-white/10 hover:border-[#FF661F] cursor-pointer group transition">
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs font-bold px-2 py-0.5 rounded bg-white/5 text-[#FF8533] group-hover:bg-[#FF661F] group-hover:text-white transition">01</span>
+              <i data-lucide="compass" class="w-4 h-4 text-slate-400 group-hover:text-[#FF8533]"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white mb-2 group-hover:text-[#FF8533] transition">Positioning</h3>
+            <p class="text-xs text-slate-400 leading-relaxed line-clamp-3">
+              Define customer avatar, core differentiators, brand voice, and competitive stance before touching creative tools.
+            </p>
+            <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400">
+              <span>Inspect Stage</span>
+              <span class="text-[#FF8533]">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Step 02 -->
+          <div data-step="02" class="system-stage-card ais-card p-6 border-white/10 hover:border-[#FF661F] cursor-pointer group transition">
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs font-bold px-2 py-0.5 rounded bg-white/5 text-[#FF8533] group-hover:bg-[#FF661F] group-hover:text-white transition">02</span>
+              <i data-lucide="calendar" class="w-4 h-4 text-slate-400 group-hover:text-[#FF8533]"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white mb-2 group-hover:text-[#FF8533] transition">Content Strategy</h3>
+            <p class="text-xs text-slate-400 leading-relaxed line-clamp-3">
+              Assign every asset a clear job: Attention, Authority, Proof, Authenticity, Demand, Objection Removal, or Action.
+            </p>
+            <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400">
+              <span>Inspect Stage</span>
+              <span class="text-[#FF8533]">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Step 03 -->
+          <div data-step="03" class="system-stage-card ais-card p-6 border-white/10 hover:border-[#FF661F] cursor-pointer group transition">
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs font-bold px-2 py-0.5 rounded bg-white/5 text-[#FF8533] group-hover:bg-[#FF661F] group-hover:text-white transition">03</span>
+              <i data-lucide="video" class="w-4 h-4 text-slate-400 group-hover:text-[#FF8533]"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white mb-2 group-hover:text-[#FF8533] transition">Creative Production</h3>
+            <p class="text-xs text-slate-400 leading-relaxed line-clamp-3">
+              Craft hook-first Reels, editorial carousels, static designs, and conversational copy with zero generic templates.
+            </p>
+            <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400">
+              <span>Inspect Stage</span>
+              <span class="text-[#FF8533]">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Step 04 -->
+          <div data-step="04" class="system-stage-card ais-card p-6 border-white/10 hover:border-[#FF661F] cursor-pointer group transition">
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs font-bold px-2 py-0.5 rounded bg-white/5 text-[#FF8533] group-hover:bg-[#FF661F] group-hover:text-white transition">04</span>
+              <i data-lucide="share-2" class="w-4 h-4 text-slate-400 group-hover:text-[#FF8533]"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white mb-2 group-hover:text-[#FF8533] transition">Distribution</h3>
+            <p class="text-xs text-slate-400 leading-relaxed line-clamp-3">
+              Synchronize reach across Instagram, Facebook, Google Business Profile, and YouTube Shorts for unified local authority.
+            </p>
+            <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400">
+              <span>Inspect Stage</span>
+              <span class="text-[#FF8533]">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Step 05 -->
+          <div data-step="05" class="system-stage-card ais-card p-6 border-white/10 hover:border-[#FF661F] cursor-pointer group transition">
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs font-bold px-2 py-0.5 rounded bg-white/5 text-[#FF8533] group-hover:bg-[#FF661F] group-hover:text-white transition">05</span>
+              <i data-lucide="filter" class="w-4 h-4 text-slate-400 group-hover:text-[#FF8533]"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white mb-2 group-hover:text-[#FF8533] transition">Lead Capture</h3>
+            <p class="text-xs text-slate-400 leading-relaxed line-clamp-3">
+              Route attention from profiles and bios directly into WhatsApp, direct calls, and fast-loading mobile landing pages.
+            </p>
+            <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400">
+              <span>Inspect Stage</span>
+              <span class="text-[#FF8533]">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Step 06 -->
+          <div data-step="06" class="system-stage-card ais-card p-6 border-white/10 hover:border-[#FF661F] cursor-pointer group transition">
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs font-bold px-2 py-0.5 rounded bg-white/5 text-[#FF8533] group-hover:bg-[#FF661F] group-hover:text-white transition">06</span>
+              <i data-lucide="phone-call" class="w-4 h-4 text-slate-400 group-hover:text-[#FF8533]"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white mb-2 group-hover:text-[#FF8533] transition">Follow-Up Handoff</h3>
+            <p class="text-xs text-slate-400 leading-relaxed line-clamp-3">
+              Provide response templates and qualification checklists so front-desk teams convert incoming inquiries into revenue.
+            </p>
+            <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400">
+              <span>Inspect Stage</span>
+              <span class="text-[#FF8533]">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Step 07 -->
+          <div data-step="07" class="system-stage-card ais-card p-6 border-white/10 hover:border-[#FF661F] cursor-pointer group transition">
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs font-bold px-2 py-0.5 rounded bg-white/5 text-[#FF8533] group-hover:bg-[#FF661F] group-hover:text-white transition">07</span>
+              <i data-lucide="bar-chart-2" class="w-4 h-4 text-slate-400 group-hover:text-[#FF8533]"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white mb-2 group-hover:text-[#FF8533] transition">Analysis</h3>
+            <p class="text-xs text-slate-400 leading-relaxed line-clamp-3">
+              Review genuine platform telemetry: profile visits, saves, WhatsApp taps, and top content topics. Zero vanity claims.
+            </p>
+            <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400">
+              <span>Inspect Stage</span>
+              <span class="text-[#FF8533]">&rarr;</span>
+            </div>
+          </div>
+
+          <!-- Step 08 -->
+          <div data-step="08" class="system-stage-card ais-card p-6 border-white/10 hover:border-[#FF661F] cursor-pointer group transition">
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs font-bold px-2 py-0.5 rounded bg-white/5 text-[#FF8533] group-hover:bg-[#FF661F] group-hover:text-white transition">08</span>
+              <i data-lucide="refresh-cw" class="w-4 h-4 text-slate-400 group-hover:text-[#FF8533]"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white mb-2 group-hover:text-[#FF8533] transition">Optimization</h3>
+            <p class="text-xs text-slate-400 leading-relaxed line-clamp-3">
+              Run monthly hypothesis-driven micro experiments to systematically double down on winning hooks, offers, and angles.
+            </p>
+            <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-400">
+              <span>Inspect Stage</span>
+              <span class="text-[#FF8533]">&rarr;</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="system.html" class="inline-flex items-center gap-2 text-sm text-[#FF8533] hover:underline font-semibold">
+            Explore Full System Documentation &rarr;
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 11: CONTENT STRATEGY - EVERY POST HAS A JOB
+         ================================================== -->
+    <section class="py-20 md:py-28 relative border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <div class="badge-orange">Content Strategy</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            "Every Post Has a Job."
+          </h2>
+          <p class="text-base sm:text-lg text-slate-400">
+            We do not create content just to fill an arbitrary calendar. Every asset is engineered to trigger a specific psychological milestone:
+          </p>
+        </div>
+
+        <!-- 8 Content Jobs Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          
+          <div class="p-6 rounded-xl bg-[#0F1420] border border-white/10 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold text-[#FF8533]">01</span>
+              <span class="badge-dark text-[10px]">Hook</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">PROBLEM</h3>
+            <div class="text-xs font-semibold text-emerald-400">→ Attention</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Directly articulates a painful, relatable challenge your local customer faces daily.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-[#0F1420] border border-white/10 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold text-[#FF8533]">02</span>
+              <span class="badge-dark text-[10px]">Expertise</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">EDUCATION</h3>
+            <div class="text-xs font-semibold text-blue-400">→ Authority</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Shares genuine expertise, unravelling complexities without gatekeeping to prove your mastery.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-[#0F1420] border border-white/10 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold text-[#FF8533]">03</span>
+              <span class="badge-dark text-[10px]">Evidence</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">PROOF</h3>
+            <div class="text-xs font-semibold text-purple-400">→ Trust</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Demonstrates real client transformations, verified outcomes, or authentic before-and-after work.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-[#0F1420] border border-white/10 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold text-[#FF8533]">04</span>
+              <span class="badge-dark text-[10px]">Human</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">BEHIND THE SCENES</h3>
+            <div class="text-xs font-semibold text-amber-400">→ Authenticity</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Reveals the humans, discipline, sanitary practices, and daily operations that make your business unique.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-[#0F1420] border border-white/10 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold text-[#FF8533]">05</span>
+              <span class="badge-dark text-[10px]">Commercial</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">OFFER</h3>
+            <div class="text-xs font-semibold text-[#FF8533]">→ Demand</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Presents a well-packaged service bundle or seasonal incentive with clear terms and zero vagueness.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-[#0F1420] border border-white/10 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold text-[#FF8533]">06</span>
+              <span class="badge-dark text-[10px]">Clarity</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">FAQ</h3>
+            <div class="text-xs font-semibold text-cyan-400">→ Objection Removal</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Answers the unasked questions and hesitations holding potential buyers back from reaching out.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-[#0F1420] border border-white/10 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold text-[#FF8533]">07</span>
+              <span class="badge-dark text-[10px]">Guidance</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">COMPARISON</h3>
+            <div class="text-xs font-semibold text-indigo-400">→ Decision Support</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Helps buyers make an informed choice between alternatives, positioning your approach clearly.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-xl bg-[#0F1420] border border-white/10 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold text-[#FF8533]">08</span>
+              <span class="badge-dark text-[10px]">Direct</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-white">CTA</h3>
+            <div class="text-xs font-semibold text-emerald-400">→ Action</div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Provides a clear, low-pressure instruction for viewers who are ready to take the next step.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 21: SAMPLE CONTENT SHOWCASE (MOCK FEED)
+         ================================================== -->
+    <section class="py-20 md:py-32 relative bg-[#090D15] border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <div class="badge-orange">Design Craft &amp; Pacing</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            Sample Content Showcase
+          </h2>
+          <p class="text-sm text-slate-400 font-mono">
+            [ Clearly Labelled: SAMPLE CREATIVE • Illustrative Demonstration Only ]
+          </p>
+        </div>
+
+        <!-- Visual Mockup Gallery -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+          
+          <!-- Sample 1: Hook-First Reel Mockup -->
+          <div class="ais-card p-4 border-white/15 space-y-3">
+            <div class="w-full aspect-[9/14] rounded-xl overflow-hidden bg-black/40">
+              <img src="assets/mockups/sample-reel.svg" alt="Sample Reel Mockup" class="w-full h-full object-contain">
+            </div>
+            <div class="pt-2">
+              <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                <span class="text-[#FF8533] font-semibold">Vertical Video Reel</span>
+                <span>Job: Attention &amp; Hook</span>
+              </div>
+              <h4 class="font-heading text-sm font-bold text-white">Doctor Explainer on Joint Misconceptions</h4>
+            </div>
+          </div>
+
+          <!-- Sample 2: Editorial Carousel Mockup -->
+          <div class="ais-card p-4 border-white/15 space-y-3">
+            <div class="w-full aspect-square rounded-xl overflow-hidden bg-black/40">
+              <img src="assets/mockups/sample-carousel.svg" alt="Sample Carousel Mockup" class="w-full h-full object-contain">
+            </div>
+            <div class="pt-2">
+              <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                <span class="text-[#FF8533] font-semibold">Editorial Carousel</span>
+                <span>Job: Education &amp; Save Rate</span>
+              </div>
+              <h4 class="font-heading text-sm font-bold text-white">3 Structural Property Inspection Flags</h4>
+            </div>
+          </div>
+
+          <!-- Sample 3: Clinical Authority Infographic -->
+          <div class="ais-card p-4 border-white/15 space-y-3">
+            <div class="w-full aspect-square rounded-xl overflow-hidden bg-black/40">
+              <img src="assets/mockups/sample-educational.svg" alt="Sample Educational Infographic" class="w-full h-full object-contain">
+            </div>
+            <div class="pt-2">
+              <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                <span class="text-[#FF8533] font-semibold">Authority Graphic</span>
+                <span>Job: Decision Support</span>
+              </div>
+              <h4 class="font-heading text-sm font-bold text-white">Root Canal vs Titanium Implant Matrix</h4>
+            </div>
+          </div>
+
+          <!-- Sample 4: Demand Offer Creative -->
+          <div class="ais-card p-4 border-white/15 space-y-3">
+            <div class="w-full aspect-square rounded-xl overflow-hidden bg-black/40">
+              <img src="assets/mockups/sample-offer.svg" alt="Sample Offer Creative" class="w-full h-full object-contain">
+            </div>
+            <div class="pt-2">
+              <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                <span class="text-[#FF8533] font-semibold">Commercial Offer Post</span>
+                <span>Job: Action &amp; Demand</span>
+              </div>
+              <h4 class="font-heading text-sm font-bold text-white">Academy Pre-Term STEM Assessment</h4>
+            </div>
+          </div>
+
+          <!-- Sample 5: Behind The Scenes Post -->
+          <div class="ais-card p-4 border-white/15 space-y-3">
+            <div class="w-full aspect-square rounded-xl overflow-hidden bg-black/40">
+              <img src="assets/mockups/sample-bts.svg" alt="Sample Behind The Scenes" class="w-full h-full object-contain">
+            </div>
+            <div class="pt-2">
+              <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                <span class="text-[#FF8533] font-semibold">Behind The Scenes</span>
+                <span>Job: Authenticity &amp; Trust</span>
+              </div>
+              <h4 class="font-heading text-sm font-bold text-white">5:45 AM Restaurant Sourcing &amp; Prep</h4>
+            </div>
+          </div>
+
+          <!-- Creative Anatomy Explainer Card -->
+          <div class="ais-card p-6 border-white/15 bg-gradient-to-br from-[#121824] to-[#0A0D14] space-y-4">
+            <div class="badge-orange text-xs">Production Anatomy</div>
+            <h4 class="font-heading text-xl font-bold text-white">Every Creative Includes 5 Production Layers:</h4>
+            
+            <ul class="space-y-3 text-xs text-slate-300">
+              <li class="flex items-start gap-2.5">
+                <span class="text-[#FF8533] font-mono font-bold">01</span>
+                <div><strong class="text-white">The Hook:</strong> First 3-second stopping power formulated to interrupt mindless scrolling.</div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-[#FF8533] font-mono font-bold">02</span>
+                <div><strong class="text-white">Script / Storyboard:</strong> Paced with zero conversational fat; delivers immediate value.</div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-[#FF8533] font-mono font-bold">03</span>
+                <div><strong class="text-white">Visual Craft:</strong> High contrast, readable typography, and disciplined color grading.</div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-[#FF8533] font-mono font-bold">04</span>
+                <div><strong class="text-white">Captions:</strong> Conversational copy addressing local context and removing hesitation.</div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-[#FF8533] font-mono font-bold">05</span>
+                <div><strong class="text-white">Frictionless CTA:</strong> One clear instruction (WhatsApp / Call / Visit).</div>
+              </li>
+            </ul>
+
+            <div class="pt-2">
+              <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-primary w-full justify-center text-xs py-2.5">
+                Request Sample Creative for Your Niche &rarr;
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 18: WEBSITE + SOCIAL MEDIA SYSTEM (AIS DIFFERENTIATOR)
+         ================================================== -->
+    <section class="py-20 md:py-28 relative border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="ais-card p-8 sm:p-12 border-[#FF661F]/30 bg-gradient-to-br from-[#0F1626] via-[#0A0D14] to-[#0A0D14] relative overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <div class="lg:col-span-7 space-y-4">
+              <div class="badge-orange text-xs">Core Strategic Advantage</div>
+              <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white leading-tight">
+                "Social Media Gets Attention.<br>
+                <span class="text-[#FF8533]">Your Website Converts It."</span>
+              </h2>
+              <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+                Social media feeds move fast and offer limited space for comprehensive credibility. When high-intent local prospects want to verify pricing, clinical experience, facilities, or accreditation, they click your link.
+              </p>
+              <p class="text-sm text-slate-400 leading-relaxed">
+                If they land on a slow, broken, 10-year-old template site, trust collapses instantly. Alag Innovative Solutions develops high-performance modern business websites that anchor your social attention and turn visitors into qualified inquiries.
+              </p>
+              <div class="pt-2 flex flex-wrap gap-4">
+                <a href="services.html#business-websites" class="btn-primary text-xs py-2.5 px-5">
+                  Explore AIS Website Solutions
+                </a>
+                <a href="contact.html" class="btn-secondary text-xs py-2.5 px-5">
+                  Discuss Unified Web + Social
+                </a>
+              </div>
+            </div>
+
+            <!-- Visual Comparison Flow -->
+            <div class="lg:col-span-5 space-y-3">
+              <div class="p-4 rounded-xl bg-[#141B2A] border border-white/10 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-[#FF661F]/20 text-[#FF8533] flex items-center justify-center font-bold text-xs">01</div>
+                  <div>
+                    <div class="text-xs font-bold text-white">SOCIAL MEDIA</div>
+                    <div class="text-[11px] text-slate-400">Discovery &amp; Hook (Attention)</div>
+                  </div>
+                </div>
+                <i data-lucide="eye" class="w-4 h-4 text-slate-400"></i>
+              </div>
+
+              <div class="text-center text-slate-600 font-bold">↓</div>
+
+              <div class="p-4 rounded-xl bg-[#141B2A] border border-emerald-500/30 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xs">02</div>
+                  <div>
+                    <div class="text-xs font-bold text-white">AIS BUSINESS WEBSITE</div>
+                    <div class="text-[11px] text-slate-400">Detailed Proof, Services &amp; Trust</div>
+                  </div>
+                </div>
+                <i data-lucide="globe" class="w-4 h-4 text-emerald-400"></i>
+              </div>
+
+              <div class="text-center text-slate-600 font-bold">↓</div>
+
+              <div class="p-4 rounded-xl bg-[#141B2A] border border-white/10 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-[#FF661F]/20 text-[#FF8533] flex items-center justify-center font-bold text-xs">03</div>
+                  <div>
+                    <div class="text-xs font-bold text-white">WHATSAPP / FORM</div>
+                    <div class="text-[11px] text-slate-400">Direct Inbound Lead Routing</div>
+                  </div>
+                </div>
+                <i data-lucide="message-square" class="w-4 h-4 text-[#FF8533]"></i>
+              </div>
+
+              <div class="text-center text-slate-600 font-bold">↓</div>
+
+              <div class="p-4 rounded-xl bg-gradient-to-r from-[#FF661F] to-[#FF8533] text-white flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-white/20 text-white flex items-center justify-center font-bold text-xs">04</div>
+                  <div>
+                    <div class="text-xs font-bold">BUSINESS OPPORTUNITY</div>
+                    <div class="text-[11px] text-white/80">Consultation / Appointment Booked</div>
+                  </div>
+                </div>
+                <i data-lucide="check" class="w-4 h-4 text-white"></i>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 20: INDUSTRY EXAMPLES (INTERACTIVE TABS)
+         ================================================== -->
+    <section id="industries" class="py-20 md:py-32 relative bg-[#090D15] border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12 space-y-4">
+          <div class="badge-dark text-xs">Local Business Frameworks</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            Tailored Industry Blueprints
+          </h2>
+          <p class="text-base text-slate-400">
+            Select your industry to view the specific local problem, engineered content direction, CTA trigger, and potential funnel:
+          </p>
+        </div>
+
+        <!-- Industry Tab Buttons Pills -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-4 no-scrollbar border-b border-white/10 mb-8">
+          <button type="button" data-industry="school" class="industry-tab-btn active px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-[#FF661F] bg-white/10 text-[#FF8533] transition">
+            School / K-12
+          </button>
+          <button type="button" data-industry="hospital" class="industry-tab-btn px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-white/10 text-slate-400 hover:text-white transition">
+            Hospital / Clinic
+          </button>
+          <button type="button" data-industry="coaching" class="industry-tab-btn px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-white/10 text-slate-400 hover:text-white transition">
+            Coaching Institute
+          </button>
+          <button type="button" data-industry="restaurant" class="industry-tab-btn px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-white/10 text-slate-400 hover:text-white transition">
+            Restaurant / Cafe
+          </button>
+          <button type="button" data-industry="realestate" class="industry-tab-btn px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-white/10 text-slate-400 hover:text-white transition">
+            Real Estate
+          </button>
+          <button type="button" data-industry="hotel" class="industry-tab-btn px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-white/10 text-slate-400 hover:text-white transition">
+            Hotel / Resort
+          </button>
+          <button type="button" data-industry="salon" class="industry-tab-btn px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-white/10 text-slate-400 hover:text-white transition">
+            Salon &amp; Wellness
+          </button>
+          <button type="button" data-industry="gym" class="industry-tab-btn px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-white/10 text-slate-400 hover:text-white transition">
+            Fitness / Gym
+          </button>
+          <button type="button" data-industry="retail" class="industry-tab-btn px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-white/10 text-slate-400 hover:text-white transition">
+            Local Retail
+          </button>
+          <button type="button" data-industry="professional" class="industry-tab-btn px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border border-white/10 text-slate-400 hover:text-white transition">
+            Professional Services
+          </button>
+        </div>
+
+        <!-- Dynamic Content Slot Rendered By main.js -->
+        <div id="industry-content-display" class="min-h-[420px] transition-all duration-300">
+          <!-- Content dynamically rendered via initIndustryTabs() -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 22: BEFORE / AFTER TRANSFORMATION
+         ================================================== -->
+    <section class="py-20 md:py-28 relative border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+          <div class="badge-dark text-xs">Conceptual Shift</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            The Transformation
+          </h2>
+          <p class="text-xs text-slate-400 font-mono">
+            [ Illustrative Example • Not an implied result guarantee ]
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          
+          <!-- BEFORE CARD -->
+          <div class="p-8 rounded-2xl bg-[#0F131D] border border-rose-500/20 space-y-6">
+            <div class="flex items-center justify-between border-b border-white/10 pb-4">
+              <div>
+                <span class="text-xs font-semibold text-rose-400 uppercase tracking-wider">Before AIS</span>
+                <h3 class="font-heading text-xl font-bold text-white mt-1">Random Posting (Default)</h3>
+              </div>
+              <span class="w-8 h-8 rounded-full bg-rose-500/10 text-rose-400 flex items-center justify-center font-bold text-sm">✕</span>
+            </div>
+
+            <ul class="space-y-4 text-xs sm:text-sm text-slate-300">
+              <li class="flex items-start gap-3">
+                <i data-lucide="x-circle" class="w-4 h-4 text-rose-400 shrink-0 mt-0.5"></i>
+                <span>Posting festival greetings and generic stock quotes without strategy</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="x-circle" class="w-4 h-4 text-rose-400 shrink-0 mt-0.5"></i>
+                <span>Cluttered, inconsistent fonts and low-contrast mobile graphics</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="x-circle" class="w-4 h-4 text-rose-400 shrink-0 mt-0.5"></i>
+                <span>No clear message: Audiences don't understand why to choose you</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="x-circle" class="w-4 h-4 text-rose-400 shrink-0 mt-0.5"></i>
+                <span>Captions contain only hashtags and no call to action</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="x-circle" class="w-4 h-4 text-rose-400 shrink-0 mt-0.5"></i>
+                <span>Bio links are broken, missing, or lead to slow dead-end homepages</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="x-circle" class="w-4 h-4 text-rose-400 shrink-0 mt-0.5"></i>
+                <span>Account owner has no idea what worked or why inquiries aren't coming</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- AFTER CARD -->
+          <div class="p-8 rounded-2xl bg-[#121A28] border border-emerald-500/30 space-y-6 shadow-xl">
+            <div class="flex items-center justify-between border-b border-white/10 pb-4">
+              <div>
+                <span class="text-xs font-semibold text-emerald-400 uppercase tracking-wider">With AIS</span>
+                <h3 class="font-heading text-xl font-bold text-white mt-1">Engineered Social System</h3>
+              </div>
+              <span class="w-8 h-8 rounded-full bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm">✓</span>
+            </div>
+
+            <ul class="space-y-4 text-xs sm:text-sm text-slate-200">
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+                <span>Strategic 8-part content engine targeting local buyer objections</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+                <span>Editorial visual identity with crisp typography and brand recognition</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+                <span>Sharp positioning: Crystal clear differentiation from local rivals</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+                <span>Conversational copywriting with frictionless WhatsApp and call CTAs</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+                <span>Dedicated mobile landing pages and instant WhatsApp chat triggers</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+                <span>Transparent monthly analytics identifying what to scale next month</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 23 & 24: WHAT WE MEASURE & SAMPLE REPORT
+         ================================================== -->
+    <section class="py-20 md:py-32 relative bg-[#090D15] border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <div class="badge-dark text-xs">Transparent Measurement</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            "What We Measure"
+          </h2>
+          <p class="text-base text-slate-400">
+            We don't manufacture fake claims like "300% guaranteed growth". Real performance depends on your local market, service offer, and consistency. Here are the genuine business metrics we track:
+          </p>
+        </div>
+
+        <!-- 6 Measurable Metrics Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+          
+          <div class="ais-card p-6 border-white/10 space-y-2">
+            <div class="text-xs font-semibold text-[#FF8533] uppercase">Signal 01</div>
+            <h3 class="font-heading text-lg font-bold text-white">Targeted Local Reach</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Total unique local accounts that viewed your content within your geographic target area.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-2">
+            <div class="text-xs font-semibold text-[#FF8533] uppercase">Signal 02</div>
+            <h3 class="font-heading text-lg font-bold text-white">High-Intent Engagements</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Saves, shares, video completion rates, and thoughtful direct questions. Not bot likes.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-2">
+            <div class="text-xs font-semibold text-[#FF8533] uppercase">Signal 03</div>
+            <h3 class="font-heading text-lg font-bold text-white">Profile Visits</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Users who found your post compelling enough to click through and inspect your credentials.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-2">
+            <div class="text-xs font-semibold text-[#FF8533] uppercase">Signal 04</div>
+            <h3 class="font-heading text-lg font-bold text-white">Website &amp; Bio Clicks</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Direct outbound taps on your landing page, appointment portal, or digital catalog.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-2">
+            <div class="text-xs font-semibold text-[#FF8533] uppercase">Signal 05</div>
+            <h3 class="font-heading text-lg font-bold text-white">WhatsApp &amp; Call Enquiries</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Actual consultation inquiries or phone conversations initiated from social signals.
+            </p>
+          </div>
+
+          <div class="ais-card p-6 border-white/10 space-y-2">
+            <div class="text-xs font-semibold text-[#FF8533] uppercase">Signal 06</div>
+            <h3 class="font-heading text-lg font-bold text-white">Content Performance Matrix</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Comparative data on which topics (Problem, Proof, BTS, or Offer) drove highest response.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Sample Monthly Report Preview (SVG Mockup) -->
+        <div class="max-w-5xl mx-auto">
+          <div class="text-center mb-6">
+            <span class="badge-orange text-xs">Reporting Transparency</span>
+            <h3 class="font-heading text-2xl font-bold text-white mt-2">Sample Monthly Client Report Preview</h3>
+            <p class="text-xs text-slate-400 mt-1">[ Labelled: SAMPLE REPORT • Real platform telemetry, zero vanity padding ]</p>
+          </div>
+
+          <div class="ais-card p-4 sm:p-6 border-white/15 bg-[#0C101A]">
+            <img src="assets/mockups/sample-report-preview.svg" alt="Sample Monthly Report Preview" class="w-full h-auto rounded-lg">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 25: EXPERIMENTATION ("DON'T GUESS. TEST.")
+         ================================================== -->
+    <section class="py-20 md:py-28 relative border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <div class="badge-orange">Scientific Feedback Loop</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            "Don't Guess. Test."
+          </h2>
+          <p class="text-base text-slate-400">
+            Marketing is not superstition. We treat your social media presence as an ongoing scientific experiment:
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 relative">
+          
+          <div class="p-5 rounded-xl bg-[#0F1422] border border-white/10 space-y-2 text-center">
+            <span class="w-7 h-7 rounded-full bg-[#FF661F]/20 text-[#FF8533] font-mono text-xs font-bold inline-flex items-center justify-center">01</span>
+            <h3 class="font-heading text-sm font-bold text-white">Hypothesis</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Assert what pain point or hook will trigger highest local resonance.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-xl bg-[#0F1422] border border-white/10 space-y-2 text-center">
+            <span class="w-7 h-7 rounded-full bg-[#FF661F]/20 text-[#FF8533] font-mono text-xs font-bold inline-flex items-center justify-center">02</span>
+            <h3 class="font-heading text-sm font-bold text-white">Experiment</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Produce 2 distinct creative variations (e.g. Hook A vs Hook B).
+            </p>
+          </div>
+
+          <div class="p-5 rounded-xl bg-[#0F1422] border border-white/10 space-y-2 text-center">
+            <span class="w-7 h-7 rounded-full bg-[#FF661F]/20 text-[#FF8533] font-mono text-xs font-bold inline-flex items-center justify-center">03</span>
+            <h3 class="font-heading text-sm font-bold text-white">Measure</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Track retention, watch duration, saves, and DM inquiries.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-xl bg-[#0F1422] border border-white/10 space-y-2 text-center">
+            <span class="w-7 h-7 rounded-full bg-[#FF661F]/20 text-[#FF8533] font-mono text-xs font-bold inline-flex items-center justify-center">04</span>
+            <h3 class="font-heading text-sm font-bold text-white">Learn</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Analyze why one angle outperformed the other without guesswork.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-xl bg-[#121A28] border border-[#FF661F]/30 space-y-2 text-center">
+            <span class="w-7 h-7 rounded-full bg-[#FF661F] text-white font-mono text-xs font-bold inline-flex items-center justify-center">05</span>
+            <h3 class="font-heading text-sm font-bold text-white">Scale Winner</h3>
+            <p class="text-xs text-[#FF8533] leading-relaxed font-medium">
+              Double down on the winning angle in the next 30-day production cycle.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Practical Experiment Examples -->
+        <div class="mt-12 p-6 rounded-2xl bg-[#0F131D] border border-white/10 max-w-4xl mx-auto">
+          <div class="text-xs font-semibold text-[#FF8533] uppercase tracking-wider mb-3">Live Testing Examples:</div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-slate-300">
+            <div class="p-3 rounded-lg bg-[#141B2A] border border-white/5">
+              <strong class="text-white">Hook A vs Hook B:</strong> "3 signs you have knee inflammation" vs "Why patients delay knee surgery until it hurts to walk."
+            </div>
+            <div class="p-3 rounded-lg bg-[#141B2A] border border-white/5">
+              <strong class="text-white">Educational vs Promo:</strong> Step-by-step dental implant maintenance vs a 20% discount offer card.
+            </div>
+            <div class="p-3 rounded-lg bg-[#141B2A] border border-white/5">
+              <strong class="text-white">Doctor/Founder vs Graphic:</strong> 45-second direct camera explanation vs an illustrated multi-slide carousel.
+            </div>
+            <div class="p-3 rounded-lg bg-[#141B2A] border border-white/5">
+              <strong class="text-white">Offer CTA vs WhatsApp CTA:</strong> "Download our full 2025 prospectus" vs "Chat with our academic counselor on WhatsApp."
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 26: PACKAGES
+         ================================================== -->
+    <section id="pricing" class="py-20 md:py-32 relative bg-[#090D15] border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <div class="badge-dark text-xs">Transparent Investment</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            Engineered Packages
+          </h2>
+          <p class="text-base text-slate-400">
+            No artificial discounts. No fake pricing pressure. Choose the tier aligned with your business phase:
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+          
+          <!-- Package 01 -->
+          <div class="ais-card p-8 border-white/10 flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="badge-dark text-xs">Package 01</span>
+                <span class="text-xs text-slate-400">Core Presence</span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-white">Social Foundation</h3>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                For established local businesses looking to professionalize their channels and end random posting.
+              </p>
+              
+              <div class="pt-2 pb-4 border-b border-white/10">
+                <div class="text-sm font-semibold text-slate-300">Custom Monthly Retainer</div>
+                <div class="text-[11px] text-slate-400 mt-0.5">Configured around your posting cadence</div>
+              </div>
+
+              <ul class="space-y-3 text-xs text-slate-300">
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Brand &amp; Positioning Audit</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Profile &amp; Bio Optimization</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>12 Assets/Month (8 Graphics + 4 Reels)</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Captions &amp; Action CTAs</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Direct WhatsApp Link Setup</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Monthly Performance Report</span>
+                </li>
+              </ul>
+            </div>
+
+            <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-secondary w-full justify-center text-xs py-3 mt-4">
+              Discuss Social Foundation &rarr;
+            </button>
+          </div>
+
+          <!-- Package 02: Most Popular -->
+          <div class="ais-card p-8 border-[#FF661F]/40 bg-gradient-to-b from-[#131B2A] to-[#0E1422] flex flex-col justify-between space-y-6 relative shadow-2xl">
+            <div class="absolute -top-3 left-1/2 -translate-x-1/2">
+              <span class="badge-orange text-[10px] tracking-wider font-bold">MOST POPULAR</span>
+            </div>
+
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="badge-orange text-xs">Package 02</span>
+                <span class="text-xs text-[#FF8533]">Active Growth</span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-white">Growth System</h3>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                For ambitious businesses actively seeking more qualified local enquiries and market authority.
+              </p>
+              
+              <div class="pt-2 pb-4 border-b border-white/10">
+                <div class="text-sm font-semibold text-white">Tailored Growth Retainer</div>
+                <div class="text-[11px] text-slate-400 mt-0.5">Heavy vertical video + weekly experimentation</div>
+              </div>
+
+              <ul class="space-y-3 text-xs text-slate-200">
+                <li class="flex items-center gap-2 font-medium">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>Everything in Social Foundation</span>
+                </li>
+                <li class="flex items-center gap-2 font-medium">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>18-20 Assets/Month (8-10 Reels + 10 Carousels)</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Hook-Driven Video Scripting &amp; Pacing</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Dedicated Mobile Landing Page Funnel</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>WhatsApp Lead Qualification Framework</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Continuous Content A/B Hypothesis Testing</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Monthly Strategy Calibration Video Call</span>
+                </li>
+              </ul>
+            </div>
+
+            <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-primary w-full justify-center text-xs py-3 mt-4">
+              Discuss Growth System &rarr;
+            </button>
+          </div>
+
+          <!-- Package 03 -->
+          <div class="ais-card p-8 border-white/10 flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="badge-dark text-xs">Package 03</span>
+                <span class="text-xs text-slate-400">Complete Digital</span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-white">Business Growth</h3>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                The complete digital infrastructure: Growth System paired with an AIS custom business website.
+              </p>
+              
+              <div class="pt-2 pb-4 border-b border-white/10">
+                <div class="text-sm font-semibold text-slate-300">Retainer + Web Architecture</div>
+                <div class="text-[11px] text-slate-400 mt-0.5">High-speed web development + complete management</div>
+              </div>
+
+              <ul class="space-y-3 text-xs text-slate-300">
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Everything in Growth System</span>
+                </li>
+                <li class="flex items-center gap-2 font-medium text-white">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Custom Business Website by AIS</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Multi-Page Responsive Web Architecture</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Google Business Local SEO Integration</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Bi-Weekly Strategy &amp; Pipeline Review Calls</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-3.5 h-3.5 text-[#FF8533]"></i>
+                  <span>Dedicated Account Strategist &amp; Direct Line</span>
+                </li>
+              </ul>
+            </div>
+
+            <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-secondary w-full justify-center text-xs py-3 mt-4">
+              Discuss Business Growth &rarr;
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 28: SOCIAL AUDIT SECTION & FORM
+         ================================================== -->
+    <section id="audit" class="py-20 md:py-32 relative border-b border-white/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Left: Value Proposition -->
+          <div class="lg:col-span-6 space-y-6">
+            <div class="badge-orange text-xs">Diagnostic Assessment</div>
+            <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
+              Not Sure What's Wrong With Your Social Media?
+            </h2>
+            <p class="text-base text-slate-300 leading-relaxed">
+              Request a free, manual 7-point audit conducted by an AIS growth strategist. We examine your current digital footprint and identify conversion leaks.
+            </p>
+
+            <div class="p-5 rounded-xl bg-[#0D121D] border border-white/10 space-y-3">
+              <h4 class="text-xs font-semibold text-[#FF8533] uppercase tracking-wider">What the 7-Point Audit Checks:</h4>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>Profile &amp; Bio Clarity</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>Market Positioning</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>Content Job Balance</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>Visual Brand Identity</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>Action &amp; CTA Friction</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>Video Hook Retention</span>
+                </div>
+                <div class="flex items-center gap-2 sm:col-span-2">
+                  <i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  <span>Conversion Pathway to WhatsApp / Website</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="text-xs text-slate-400">
+              *Manual review by human strategists. Zero automated bots. Delivered via WhatsApp within 24-48 business hours.
+            </p>
+          </div>
+
+          <!-- Right: Audit Form -->
+          <div class="lg:col-span-6">
+            <div class="ais-card p-6 sm:p-8 border-white/15 bg-[#0D121D] shadow-2xl">
+              <h3 class="font-heading text-xl font-bold text-white mb-2">Request Free Social Audit</h3>
+              <p class="text-xs text-slate-400 mb-6">Enter your business details below to place your profile into our audit queue:</p>
+
+              <form id="audit-form" onsubmit="AIS_FORMS.handleAuditSubmit(event)" class="space-y-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="audit-name" class="block text-xs font-semibold text-slate-300 mb-1">Your Name *</label>
+                    <input type="text" id="audit-name" required placeholder="Abhishek Sharma" class="w-full bg-[#141B2A] border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder-slate-400 focus:border-[#FF661F] focus:outline-none">
+                  </div>
+                  <div>
+                    <label for="audit-business" class="block text-xs font-semibold text-slate-300 mb-1">Business Name *</label>
+                    <input type="text" id="audit-business" required placeholder="Nova Care Dental" class="w-full bg-[#141B2A] border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder-slate-400 focus:border-[#FF661F] focus:outline-none">
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="audit-phone" class="block text-xs font-semibold text-slate-300 mb-1">WhatsApp Phone *</label>
+                    <input type="tel" id="audit-phone" required placeholder="+91 98765 43210" class="w-full bg-[#141B2A] border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder-slate-400 focus:border-[#FF661F] focus:outline-none">
+                  </div>
+                  <div>
+                    <label for="audit-category" class="block text-xs font-semibold text-slate-300 mb-1">Industry Category *</label>
+                    <select id="audit-category" required class="w-full bg-[#141B2A] border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:border-[#FF661F] focus:outline-none">
+                      <option value="" disabled selected>Select category</option>
+                      <option value="School / K-12 Academy">School / K-12 Academy</option>
+                      <option value="Hospital / Healthcare Clinic">Hospital / Healthcare Clinic</option>
+                      <option value="Coaching Institute">Coaching Institute</option>
+                      <option value="Restaurant / Cafe">Restaurant / Cafe</option>
+                      <option value="Real Estate">Real Estate</option>
+                      <option value="Hotel / Resort">Hotel / Resort</option>
+                      <option value="Salon & Wellness">Salon &amp; Wellness</option>
+                      <option value="Fitness / Gym">Fitness / Gym</option>
+                      <option value="Local Retail">Local Retail</option>
+                      <option value="Professional Services">Professional Services</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="audit-handle" class="block text-xs font-semibold text-slate-300 mb-1">Instagram Handle</label>
+                    <input type="text" id="audit-handle" placeholder="@novacaredental" class="w-full bg-[#141B2A] border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder-slate-400 focus:border-[#FF661F] focus:outline-none">
+                  </div>
+                  <div>
+                    <label for="audit-website" class="block text-xs font-semibold text-slate-300 mb-1">Website URL (if any)</label>
+                    <input type="text" id="audit-website" placeholder="https://novacare.com" class="w-full bg-[#141B2A] border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder-slate-400 focus:border-[#FF661F] focus:outline-none">
+                  </div>
+                </div>
+
+                <div>
+                  <label for="audit-goal" class="block text-xs font-semibold text-slate-300 mb-1">Primary 90-Day Goal</label>
+                  <select id="audit-goal" class="w-full bg-[#141B2A] border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:border-[#FF661F] focus:outline-none">
+                    <option value="Generate more inbound WhatsApp inquiries">Generate more inbound WhatsApp inquiries</option>
+                    <option value="Elevate brand perception and look professional">Elevate brand perception and look professional</option>
+                    <option value="Differentiate from aggressive local competitors">Differentiate from aggressive local competitors</option>
+                    <option value="Build a predictable marketing system">Build a predictable marketing system</option>
+                  </select>
+                </div>
+
+                <button type="submit" class="btn-primary w-full justify-center py-3 text-sm font-semibold mt-2">
+                  Request Free 7-Point Audit &rarr;
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 30: FAQ
+         ================================================== -->
+    <section id="faq" class="py-20 md:py-32 relative bg-[#090D15] border-b border-white/5">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-16 space-y-4">
+          <div class="badge-dark text-xs">Clarity &amp; Transparency</div>
+          <h2 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            Frequently Asked Questions
+          </h2>
+          <p class="text-base text-slate-400">
+            Straightforward answers. No buzzwords. No artificial marketing promises.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          
+          <!-- FAQ 01 -->
+          <div class="faq-item ais-card border-white/10 overflow-hidden">
+            <button type="button" class="faq-header w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-heading text-base font-semibold text-white">Do you only create social media posts?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-[#FF8533] shrink-0"></i>
+            </button>
+            <div class="faq-content px-6 pb-6 text-xs sm:text-sm text-slate-300 leading-relaxed">
+              No. Creating standalone posts is the least impactful part of modern social media. We build a complete growth system: beginning with market positioning, building an 8-part content engine, setting up frictionless WhatsApp and landing page conversion pathways, and monitoring monthly business impact. Posts without a system are just noise.
+            </div>
+          </div>
+
+          <!-- FAQ 02 -->
+          <div class="faq-item ais-card border-white/10 overflow-hidden">
+            <button type="button" class="faq-header w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-heading text-base font-semibold text-white">Do you manage our account completely, or do we still have to post?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-[#FF8533] shrink-0"></i>
+            </button>
+            <div class="faq-content px-6 pb-6 text-xs sm:text-sm text-slate-300 leading-relaxed">
+              We handle the complete execution cycle: strategy, scripting, graphic design, video editing, caption copywriting, scheduling, and monthly reporting. Depending on your business, you may provide raw smartphone video clips of your facility or team using our simple shot-lists, and we transform them into polished, high-retention assets.
+            </div>
+          </div>
+
+          <!-- FAQ 03 -->
+          <div class="faq-item ais-card border-white/10 overflow-hidden">
+            <button type="button" class="faq-header w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-heading text-base font-semibold text-white">How many posts and reels do we receive each month?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-[#FF8533] shrink-0"></i>
+            </button>
+            <div class="faq-content px-6 pb-6 text-xs sm:text-sm text-slate-300 leading-relaxed">
+              Deliverables are configured based on your chosen package. Our Social Foundation package includes 12 strategic assets per month (8 graphics/carousels + 4 reels), while our Growth System delivers 18-20 assets with heavy vertical video focus. We prioritize quality, retention, and conversion jobs over spamming your feed with empty filler.
+            </div>
+          </div>
+
+          <!-- FAQ 04 -->
+          <div class="faq-item ais-card border-white/10 overflow-hidden">
+            <button type="button" class="faq-header w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-heading text-base font-semibold text-white">Do you guarantee followers, leads, or sales?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-[#FF8533] shrink-0"></i>
+            </button>
+            <div class="faq-content px-6 pb-6 text-xs sm:text-sm text-slate-300 leading-relaxed">
+              <strong>No.</strong> We never make false or misleading revenue guarantees. Final sales depend on multiple factors outside social media: market demand, pricing, competitor moves, and how promptly your staff responds to incoming inquiries. What we guarantee is a rigorous, consistent, professional system engineered according to first principles and continually optimized against real data.
+            </div>
+          </div>
+
+          <!-- FAQ 05 -->
+          <div class="faq-item ais-card border-white/10 overflow-hidden">
+            <button type="button" class="faq-header w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-heading text-base font-semibold text-white">Do you build websites as well?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-[#FF8533] shrink-0"></i>
+            </button>
+            <div class="faq-content px-6 pb-6 text-xs sm:text-sm text-slate-300 leading-relaxed">
+              Yes. Alag Innovative Solutions (AIS) is a full-stack digital development firm. We build custom, ultra-fast, modern business websites and high-conversion landing pages. In fact, pairing social media attention with an AIS-built website creates the strongest conversion pipeline for local businesses.
+            </div>
+          </div>
+
+          <!-- FAQ 06 -->
+          <div class="faq-item ais-card border-white/10 overflow-hidden">
+            <button type="button" class="faq-header w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-heading text-base font-semibold text-white">How long before we see meaningful business data?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-[#FF8533] shrink-0"></i>
+            </button>
+            <div class="faq-content px-6 pb-6 text-xs sm:text-sm text-slate-300 leading-relaxed">
+              System setup and initial baseline calibration take approximately 2 to 4 weeks. Most clients start observing improved profile engagement, cleaner brand perception, and higher-quality inquiry conversations within the first 60 to 90 days of consistent publishing. Marketing systems compound over time.
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="faq.html" class="inline-flex items-center gap-2 text-sm text-[#FF8533] hover:underline font-semibold">
+            View All 12 Frequently Asked Questions &rarr;
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 31: FINAL CTA
+         ================================================== -->
+    <section class="py-20 md:py-32 relative overflow-hidden bg-gradient-to-b from-[#07090E] via-[#0E1524] to-[#07090E]">
+      <div class="glow-orange top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px]"></div>
+
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-6">
+        <div class="badge-orange">Ready For An Engineered System?</div>
+        
+        <h2 class="font-heading text-4xl sm:text-6xl font-bold tracking-tight text-white leading-tight">
+          "Stop Posting Randomly.<br>
+          <span class="bg-gradient-to-r from-white via-slate-200 to-[#FF8533] bg-clip-text text-transparent">Start Building a System."</span>
+        </h2>
+
+        <p class="text-base sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          Let's turn your social presence into a clearer, more consistent path from attention to enquiry.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+          <button type="button" onclick="AIS_COMPONENTS.openBookingModal()" class="btn-primary text-base py-3.5 px-8 w-full sm:w-auto shadow-xl shadow-[#FF661F]/25">
+            <span>Book a Strategy Call</span>
+            <i data-lucide="calendar" class="w-4 h-4"></i>
+          </button>
+          <a href="audit.html" class="btn-secondary text-base py-3.5 px-8 w-full sm:w-auto">
+            <span>Get a Free Social Audit</span>
+            <i data-lucide="scan-search" class="w-4 h-4 text-[#FF8533]"></i>
+          </a>
+        </div>
+
+        <div class="pt-6 text-xs text-slate-400">
+          30-minute diagnostic session • No sales pressure • Concrete growth blueprint
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer Slot -->
+  <footer id="ais-footer-slot"></footer>
+
+  <!-- Core Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/forms.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

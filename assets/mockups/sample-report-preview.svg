@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" fill="none" width="100%" height="100%">
+  <!-- Outer Dashboard Frame -->
+  <rect width="800" height="520" rx="20" fill="#0C101A" stroke="#1E283C" stroke-width="2"/>
+  
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="800" height="60" rx="20" fill="#111726"/>
+  <rect x="24" y="18" width="12" height="12" rx="3" fill="#EF4444"/>
+  <rect x="42" y="18" width="12" height="12" rx="3" fill="#F59E0B"/>
+  <rect x="60" y="18" width="12" height="12" rx="3" fill="#10B981"/>
+  
+  <!-- Watermark / Label Requirement -->
+  <rect x="90" y="14" width="126" height="24" rx="6" fill="rgba(255,94,30,0.2)" stroke="#FF661F" stroke-width="1"/>
+  <text x="98" y="30" fill="#FF8533" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" letter-spacing="1">SAMPLE REPORT</text>
+
+  <text x="230" y="31" fill="#94A3B8" font-family="sans-serif" font-size="12">AIS Monthly Telemetry Digest • Period: Month 02 Baseline</text>
+  <rect x="640" y="14" width="136" height="24" rx="6" fill="#1E293B"/>
+  <text x="652" y="30" fill="#F8FAFC" font-family="sans-serif" font-size="11" font-weight="600">Export PDF Ready</text>
+
+  <!-- 4 Metric Cards -->
+  <!-- Card 1 -->
+  <rect x="24" y="80" width="176" height="90" rx="12" fill="#131B2A" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="40" y="105" fill="#94A3B8" font-family="sans-serif" font-size="12">Content Published</text>
+  <text x="40" y="136" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700">16 Assets</text>
+  <text x="40" y="156" fill="#10B981" font-family="sans-serif" font-size="11">✓ 100% On-Schedule</text>
+
+  <!-- Card 2 -->
+  <rect x="216" y="80" width="176" height="90" rx="12" fill="#131B2A" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="232" y="105" fill="#94A3B8" font-family="sans-serif" font-size="12">Local Reach</text>
+  <text x="232" y="136" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700">Tracked</text>
+  <text x="232" y="156" fill="#60A5FA" font-family="sans-serif" font-size="11">Target Geofence Active</text>
+
+  <!-- Card 3 -->
+  <rect x="408" y="80" width="176" height="90" rx="12" fill="#131B2A" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="424" y="105" fill="#94A3B8" font-family="sans-serif" font-size="12">Profile Visits</text>
+  <text x="424" y="136" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700">Monitored</text>
+  <text x="424" y="156" fill="#10B981" font-family="sans-serif" font-size="11">High-Intent Traffic</text>
+
+  <!-- Card 4 -->
+  <rect x="600" y="80" width="176" height="90" rx="12" fill="#131B2A" stroke="rgba(255,94,30,0.3)" stroke-width="1"/>
+  <text x="616" y="105" fill="#FF8533" font-family="sans-serif" font-size="12" font-weight="600">WhatsApp / Call Clicks</text>
+  <text x="616" y="136" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700">Primary KPI</text>
+  <text x="616" y="156" fill="#FF8533" font-family="sans-serif" font-size="11">Conversion Signal</text>
+
+  <!-- Split Sections -->
+  <!-- Left: Content Pillar Performance Scorecard -->
+  <rect x="24" y="190" width="368" height="300" rx="14" fill="#111724" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="44" y="222" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">Content Performance Breakdown</text>
+  <line x1="44" y1="236" x2="370" y2="236" stroke="rgba(255,255,255,0.06)"/>
+
+  <text x="44" y="264" fill="#FF8533" font-family="sans-serif" font-size="12" font-weight="600">Doctor Explainer Reel #04</text>
+  <text x="44" y="282" fill="#94A3B8" font-family="sans-serif" font-size="11">Top Save Rate: 4.8x baseline. High authority retention.</text>
+
+  <text x="44" y="320" fill="#FF8533" font-family="sans-serif" font-size="12" font-weight="600">Facility Cleanliness Tour (BTS)</text>
+  <text x="44" y="338" fill="#94A3B8" font-family="sans-serif" font-size="11">Highest comment inquiry rate regarding consultation hours.</text>
+
+  <text x="44" y="376" fill="#FF8533" font-family="sans-serif" font-size="12" font-weight="600">Weekend OPD Package Carousel</text>
+  <text x="44" y="394" fill="#94A3B8" font-family="sans-serif" font-size="11">Drove direct WhatsApp appointment inquiries.</text>
+
+  <rect x="44" y="426" width="328" height="42" rx="8" fill="#182030"/>
+  <text x="56" y="452" fill="#64748B" font-family="sans-serif" font-size="11">Observation: Authentic medical team clips beat static graphics 3:1.</text>
+
+  <!-- Right: Qualitative Findings & Next Experiments -->
+  <rect x="408" y="190" width="368" height="300" rx="14" fill="#111724" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="428" y="222" fill="#F8FAFC" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">What Worked &amp; Next Experiments</text>
+  <line x1="428" y1="236" x2="754" y2="236" stroke="rgba(255,255,255,0.06)"/>
+
+  <text x="428" y="260" fill="#10B981" font-family="sans-serif" font-size="12" font-weight="700">✓ WHAT WORKED</text>
+  <text x="428" y="280" fill="#E2E8F0" font-family="sans-serif" font-size="11">• Fast-paced vertical Reels with large on-screen subtitles</text>
+  <text x="428" y="298" fill="#E2E8F0" font-family="sans-serif" font-size="11">• Pre-filled WhatsApp greeting link reduced booking drop-offs</text>
+
+  <text x="428" y="334" fill="#EF4444" font-family="sans-serif" font-size="12" font-weight="700">✕ WHAT DIDN'T WORK</text>
+  <text x="428" y="354" fill="#E2E8F0" font-family="sans-serif" font-size="11">• Generic holiday greeting graphic had lowest save rate</text>
+  <text x="428" y="372" fill="#E2E8F0" font-family="sans-serif" font-size="11">• Captions without explicit question prompts had 50% fewer replies</text>
+
+  <text x="428" y="408" fill="#FF8533" font-family="sans-serif" font-size="12" font-weight="700">⚗ NEXT MONTH EXPERIMENT</text>
+  <text x="428" y="428" fill="#E2E8F0" font-family="sans-serif" font-size="11">• A/B Test Hook: "3 Signs you need..." vs "Why patients wait..."</text>
+  <text x="428" y="446" fill="#E2E8F0" font-family="sans-serif" font-size="11">• Launch dedicated 1-page mobile landing page for knee pain OPD</text>
+</svg>
